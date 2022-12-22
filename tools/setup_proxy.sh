@@ -46,7 +46,7 @@ Description=3proxy Proxy Server
 [Service]
 Type=simple
 ExecStart=/usr/bin/3proxy /etc/3proxy/3proxy.cfg
-ExecStop=/bin/kill `/usr/bin/pgrep -u proxy3`
+ExecStop=/bin/kill `/usr/bin/pgrep -u 3proxy`
 RemainAfterExit=yes
 Restart=on-failure
 
