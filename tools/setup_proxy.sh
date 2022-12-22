@@ -35,9 +35,7 @@ allow * * * 80-88,8080-8088 HTTP
 allow * * * 443,8443 HTTPS
 
 proxy -p53129 -n -a
-echo -n " Please enter the password for proxy"
-read userPass
-users user:CL:"$userPass"
+users user:CL:Piissv12rdAS466fa
 
 EOF
 
